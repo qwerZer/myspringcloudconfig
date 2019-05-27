@@ -1,0 +1,17 @@
+demo:
+  test: 10086
+
+spring:
+  application:
+    name: service-config
+
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: bus-refresh
+logging:
+  level:
+    ROOT: info
+    org.springframework: info
